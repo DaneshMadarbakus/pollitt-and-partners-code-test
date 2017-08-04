@@ -1,0 +1,13 @@
+html{
+  height:100%;
+  width:100%;
+}
+body, .container-fluid{
+  background: $primary-color;
+  text-align: center;
+  padding:0;
+}
+.row{
+  width:100%;
+  margin:0;
+}

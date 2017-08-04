@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+  width: 100%; }
+
+body, .container-fluid {
+  background: #f4f2d9;
+  text-align: center;
+  padding: 0; }
+
+.row {
+  width: 100%;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: font58033; }
+
+p {
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300; }
+
+header {
+  background: #f4f2d9;
+  background: -webkit-linear-gradient(#f0f0e7, #f4f2d9);
+  background: -o-linear-gradient(#f0f0e7, #f4f2d9);
+  background: -moz-linear-gradient(#f0f0e7, #f4f2d9);
+  background: linear-gradient(#f0f0e7, #f4f2d9);
+  display: block;
+  padding-top: 100px;
+  height: 605px;
+  min-height: 95vh; }
+  header h1 {
+    margin: 10px 0 0 0; }
+  header .row {
+    margin-bottom: 100px; }
+    header .row .leftSide, header .row .rightSide {
+      margin: 105px 0 0 0;
+      padding: 0 30px; }
+    header .row .leftSide {
+      text-align: right; }
+    header .row .rightSide {
+      text-align: left; }
+  header p {
+    position: absolute;
+    width: 100%;
+    bottom: 40px; }
+
+@media only screen and (max-width: 767px) {
+  header {
+    padding-top: 0; }
+    header .row .leftSide, header .row .rightSide {
+      text-align: center;
+      margin: 0;
+      padding: 30px 10px; } }
+
+main {
+  display: block;
+  height: 50vh; }
+  main img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    height: 55%; }
+  main p {
+    color: #FFF;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 21px; }
+    @media only screen and (max-width: 945px) {
+      main p {
+        font-size: 19px; } }
+    @media only screen and (max-width: 767px) {
+      main p {
+        width: 79%;
+        font-size: 19px; } }
+    @media only screen and (max-width: 545px) {
+      main p {
+        padding-top: 40px;
+        width: 95%;
+        font-size: 18px; } }
+
+section {
+  padding: 50px 0 80px 0;
+  width: 100%; }
+  section h3 {
+    margin-bottom: 60px; }
+  section .leftColumn {
+    padding-left: 100px; }
+  section .rightColumn {
+    padding-right: 100px; }
+  section .location {
+    font-size: 16px; }
+  section hr {
+    border: 1px solid #000;
+    width: 20px; }
+
+@media only screen and (max-width: 767px) {
+  section .leftColumn, section .rightColumn {
+    padding: 0; }
+  section .leftColumn {
+    margin-bottom: 80px; } }
+
+footer {
+  background: #2f3031; }
+  footer img {
+    margin: 20px 0; }
+  footer p {
+    color: #9fa0a1;
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 12px; }
+    footer p u {
+      padding: 0 5px; }

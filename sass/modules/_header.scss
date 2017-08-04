@@ -1,0 +1,45 @@
+header{
+  background: $primary-color;
+  background: -webkit-linear-gradient(#f0f0e7, $primary-color); 
+  background: -o-linear-gradient(#f0f0e7, $primary-color);
+  background: -moz-linear-gradient(#f0f0e7, $primary-color);
+  background: linear-gradient(#f0f0e7, $primary-color);
+  display:block;
+  padding-top: 100px;
+  height: 605px;
+  min-height:95vh;
+  h1{
+    margin:10px 0 0 0;
+  }
+  .row{
+    margin-bottom: 100px;
+    .leftSide, .rightSide{
+      margin:105px 0 0 0;
+      padding:0 30px;
+    }
+    .leftSide{
+      text-align:right;
+    }
+    .rightSide{
+      text-align:left;
+    }
+  }
+  p{
+    position:absolute;
+    width:100%;
+    bottom:40px;
+  }
+}
+
+@media #{$second-break} {
+  header{
+    padding-top:0;
+    .row{
+      .leftSide, .rightSide{
+        text-align:center;
+        margin:0;
+        padding:30px 10px;
+      }
+    }
+  }
+}

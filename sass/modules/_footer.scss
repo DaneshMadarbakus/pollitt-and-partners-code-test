@@ -1,0 +1,15 @@
+footer{
+  background: $secondary-color;
+  img{
+    margin:20px 0;
+  }
+  p{
+    color:$tertiary-color;
+    margin:0;
+    padding-bottom: 30px;
+    font-size:12px;
+    u{
+      padding:0 5px;
+    }
+  }
+}
