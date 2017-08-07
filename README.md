@@ -14,4 +14,8 @@
 
 <li>Started designing the different parts of the webpage including: footer, header, main, and section 
 
-<li>Finished by making the design responsive 
+<li>Cropped the logos and back of second section to use as images in the html
+
+<li>Made the design responsive by using media queries and using chrome developer tools to check on different devices and screen sizes
+
+<li>Added scrollify as I felt the "scroll to explore" line in the design would suggest smoothly snapping to sections
